@@ -14,6 +14,8 @@ Simple spammer written with golang
 
 ``msg`` flag gets email message.
 
+``repeat`` flag gets how many time do you want to send an email. default value is 1
+
 ```bash
 ./main --from=sender@gmail.com --password=password --to=receiver@gmail.com --msg="email message"
 ```
